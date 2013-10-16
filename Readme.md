@@ -1,7 +1,7 @@
 
 # rest
 
-  Rest api implementation
+  Restful api implementation
 
 ## Installation
 

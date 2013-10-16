@@ -1,7 +1,7 @@
 {
   "name": "rest",
   "repo": "shallker/rest",
-  "description": "Rest api implementation",
+  "description": "Restful api implementation",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {

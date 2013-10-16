@@ -1,0 +1,19 @@
+{
+  "name": "rest",
+  "repo": "shallker/rest",
+  "description": "Rest api implementation",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "shallker-wang/eventy": "*",  
+    "shallker/paramer": "*",  
+    "shallker/http": "*"  
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/rest.js"
+  ]
+}

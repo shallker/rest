@@ -1,6 +1,6 @@
 
 build: components index.js lib/*.js
-	@component build
+	@component build --dev
 	@touch build/done
 	@rm build/done
 	@echo build done

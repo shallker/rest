@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+    <script src="/build/build.js"></script>
+  </head>
+  <body>
+    <script>
+      var RestAPI = require('rest');
+      var test = require('simple-test');
+
+      test('restAPI.read', function (done) {
+        var users = new RestAPI('/api/users');
+
+        users.read('shallker', function () {
+          console.log(arguments);
+          console.log(this);
+          done();
+        });
+      });
+
+      test('restAPI.queryHead', function (done) {
+        var users = new RestAPI('/api/users');
+
+        users.queryHead({name: 'shallker', age: 20}, function () {
+          console.log(arguments);
+          console.log(this);
+          done();
+        });
+      });
+    </script>
+  </body>
+</html>

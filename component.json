@@ -1,7 +1,7 @@
 {
-  "name": "rest",
-  "repo": "shallker/rest",
-  "description": "Restful api implementation",
+  "name": "rest-api",
+  "repo": "shallker/rest-api",
+  "description": "Restful api request",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
@@ -16,6 +16,6 @@
   "main": "index.js",
   "scripts": [
     "index.js",
-    "lib/rest.js"
+    "lib/rest-api.js"
   ]
 }

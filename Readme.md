@@ -1,20 +1,20 @@
 
-# rest
+# rest-api
 
-  Restful api implementation
+  Restful api request
 
 ## Installation
 
   Install with [component(1)](http://component.io):
 
-    $ component install shallker/rest
+    $ component install shallker/rest-api
 
 ## API
 ```javascript
-var rest = new Rest('/api/users');
+var restAPI = new RestAPI('/api/users');
 ```
 
-### rest
+### restAPI
 #### .create(Object doc, Function callback, Function onError)
 #### .read(String id, Function callback, Function onError)
 #### .update(String id, Object data, Function callback, Function onError)
